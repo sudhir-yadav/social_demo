@@ -1,0 +1,111 @@
+body {padding:0px;margin:0px;    color: #5a5a5a;    background: #fbfbfb;}
+h1 {
+  margin-bottom: 20px;
+  padding-bottom: 9px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+      color: #5a5a5a;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+.panel
+{
+  border:1px solid #dadada;
+  box-shadow: none;
+  border-radius:0px;
+  position:relative;
+}
+
+.panel-heading
+{
+  height:150px !important;
+  padding:0px;
+  border-radius:0px;
+  position: relative;
+  background: url('../img/loader.gif')center no-repeat;
+}
+
+.panel-footer {
+    padding: 10px 15px;
+    background-color:transparent;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.folder_usibility{
+  background:#fff;
+  border:1px solid #dadada;
+  font-size:17px;
+      border-radius: 3px;
+}
+
+@keyframes placeHolderShimmer{
+    0%{
+        background-position: -468px 0
+    }
+    100%{
+        background-position: 468px 0
+    }
+}
+
+.animated-background {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background-size: 800px 104px;
+    height: 96px;
+    position: relative;
+}
+
+.navbar {
+  background: #fff !important;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+body.modal-open {
+    overflow: hidden;
+}
