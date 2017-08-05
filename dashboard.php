@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
-	<link rel="stylesheet" type="text/css" href="css/jumbotron.css"> 
+	  <link rel="stylesheet" type="text/css" href="css/jumbotron.css"> 
     <link rel="stylesheet" type="text/css" href="css/themify-icons.css">
     <link rel="stylesheet" type="text/css" href="css/dashboard_style.css">
+    <link rel="stylesheet" type="text/css" href="css/slider.css">
     <style>
     body,html{font-family:"Source Sans Pro";}
     .folder_name{
@@ -3301,7 +3302,7 @@
  ?>
 
     <!-- Begin page content -->
-    <div class="container">
+    <div class="container" id="content">
         <div><h3 style="font-weight:100;"><span class="ti-folder"></span> FACEBOOK ALBUM (<?php echo count($folder->data); ?>) &nbsp; 
         <!-- <button class="btn btn-success">DOWNLOAD ALL</button>
         <button class="btn btn-info">DOWNLOAD SELECTED</button> -->
@@ -3316,11 +3317,12 @@
                   
                     <div class="col-lg-3 col-md-3 col-md-3 col-xs-6 folder">
                         <div class="panel">
-                            <?php 
+                             <?php 
                     $fldr_stack[$folder->data[$i]->id]['name'] = $folder->data[$i]->name;
                        if($folder->data[$i]->photo_count > 0) {
                          for($j=0;$j<count($folder->data[$i]->photos->data);$j++) {
-                          $fldr_stack[$folder->data[$i]->id]['images'][$j]['large_img'] = $folder->data[$i]->photos->data[$j]->images[0]->source;
+                          $fldr_stack[$folder->data[$i]->id]['images'][$j]['src'] = $folder->data[$i]->photos->data[$j]->images[0]->source;
+                          $fldr_stack[$folder->data[$i]->id]['images'][$j]['height'] = $folder->data[$i]->photos->data[$j]->images[0]->height;
 
 
                  } } ?>
@@ -3349,7 +3351,7 @@
                                            <!-- <span class="ti-cloud-up" data-toggle="tooltip" data-placement="bottom" title="Upload to google drive"></span> -->
                                            <img data-toggle="tooltip" data-placement="bottom" title="Upload to google drive" style="height: 16px;margin-top: -4px;" src="img/drive_12.png">
                                        </button>
-                                        <button class="folder_usibility">
+                                        <button onclick='slideShow(<?php echo json_encode($fldr_stack[$folder->data[$i]->id]); ?>);' class="folder_usibility">
                                         <span class="ti-layout-slider" data-toggle="tooltip" data-placement="bottom" title="View Slide Show"></span>
                                         </button>
                                         <button class="folder_usibility">
@@ -3368,7 +3370,23 @@
 
     </div>
 
-    <footer class="footer" style="position: fixed;box-shadow: 0 0 15px rgba(0,0,0,0.2);">
+
+  <div id="modal" class="slide_modal">
+    <button onclick="stop()" class="modal_close_button"><span class="ti-close"></span> </button>
+    <div class="modal_con_outer">
+       <div id="modal_content" class="modal_con_inner">
+          <img id="slide_img" class="img-responsive modal_image"  />        
+       </div>
+       <div class="modal_toolbar">
+             <button onclick="prev();"><span class="ti-control-backward"></span></button>
+             <button id="playPause"><span class="ti-control-pause"></span></button>
+             <button onclick="next();"><span class="ti-control-forward"></span></button>
+       </div>
+    </div> 
+ </div> 
+
+
+    <footer class="footer" style="position: fixed;box-shadow: 0 0 15px rgba(0,0,0,0.2);z-index:1000;">
       <div class="container">
       <div class="col-lg-6 col-sm-6 col-xs-6 " style="padding: 10px;">
 
@@ -3384,19 +3402,13 @@
       </div>
     </footer>
 
- <div id="myModal col-lg-12" style="background: rgba(0,0,0,0.5);position: absolute;width:100%;height:100%;z-index:1000000;overflow:hidden;top:0;left:0;text-align: center;">
-     
-     <div style="margin:0 15%;background: #fff;display: block;position: relative;padding:10px;" class="col-lg-8">
-        <div style="height:10%;margin-top:30%;position:absolute;background: #fff;width:100%;left:0;">
-            asdasdasd
-        </div>
-         <img class="img-responsive" style="margin:Auto;" src="https://scontent.xx.fbcdn.net/v/t31.0-8/16403153_1340628222627003_6946004626063778441_o.jpg?oh=f7ad7a503fdfd84539218aecd65708fd&oe=5A38BB63"/> 
-     </div>
 
- </div>
+ 
  	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
-    <script>
+  <script type="text/javascript" src="js/slider.js"></script>
+
+<!--     <script>
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip(); 
 });
@@ -3408,7 +3420,7 @@ $("#myModal").on("show", function () {
 });
 
 $('.custom-control').prop('indeterminate', true)
-</script>
+</script> -->
 
 </body>
 
