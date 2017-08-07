@@ -1,0 +1,23 @@
+<?php
+ require_once __DIR__.'/vendor/autoload.php';
+ class fbData {
+
+    function __contruct() {
+       
+    }
+
+    public function getUserProfile() {
+        
+    }
+
+    public function getUserImages() {
+        
+    }
+
+    function __destruct() {
+        
+    }
+
+ }
+
+?>

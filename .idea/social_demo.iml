@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/guzzle/src" isTestSource="false" packagePrefix="GuzzleHttp" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/psr7" isTestSource="false" packagePrefix="GuzzleHttp" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/squizlabs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/squizlabs/php_codesniffer/src" isTestSource="false" packagePrefix="PHP_CodeSniffer" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/monolog/monolog/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/monolog/monolog/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/phpseclib/phpseclib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/facebook/graph-sdk/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/psr/log" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

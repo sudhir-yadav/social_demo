@@ -4,11 +4,12 @@
         function slideShow(arg)
         {  
             args_slid1v = arg;
+            if(args_slid1v.images === undefined)
+              return false;
             if(args_slid1v.images.length > 0)
             {
               $('#modal').css("display","table");
               $('body').addClass('modal_no_margin');
-              /*$('#content').addClass('modal_no_margin');*/
               start();
             } 
         }
@@ -21,4 +22,4 @@
       function next(){pauseB();i_slid1v++;if(i_slid1v == (args_slid1v.images.length-1)){i_slid1v = 0;};$('#modal_content img').attr("src",args_slid1v.images[i_slid1v].src);};
       function prev(){pauseB();i_slid1v--;if(i_slid1v < 0){i_slid1v = (args_slid1v.images.length-1);};$('#modal_content img').attr("src",args_slid1v.images[i_slid1v].src);};
       function stop(){clearTimeout(timer);i_slid1v=0;$('#modal').fadeOut();$('body').removeClass('modal_no_margin');/*$('#content').removeClass('modal_no_margin');*/$("#playPause span").attr('class','ti-control-pause');};
-    
+   

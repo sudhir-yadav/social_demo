@@ -4,4 +4,11 @@ RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php
 RewriteCond %{REQUEST_URI} login
 RewriteRule .* index.php
+
+
+
 ErrorDocument 404 "Ooops, that page was <b>not found</b>. Please try a different one or <a href='mailto:owner@site.com'>email the site owner</a> for assistance.
+
+ErrorDocument 401 "Ooops, that page was <b>not found</b>. Please try a different one or <a href='mailto:owner@site.com'>email the site owner</a> for assistance.
+
+ErrorDocument 400 "Ooops, that page was <b>not found</b>. Please try a different one or <a href='mailto:owner@site.com'>email the site owner</a> for assistance.

@@ -1,3 +1,3 @@
 @ECHO OFF
-SET BIN_TARGET=%~dp0/../squizlabs/php_codesniffer/scripts/phpcbf
+SET BIN_TARGET=%~dp0/../squizlabs/php_codesniffer/bin/phpcbf
 php "%BIN_TARGET%" %*
