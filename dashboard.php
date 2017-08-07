@@ -51,6 +51,30 @@ $user_album = $response->getGraphEdge();
         {
             cursor: pointer;
         }
+
+        @keyframes blink {
+                          0% {
+                              color:rgba(255,255,255,1)
+                          }
+                          50% {
+                              color:rgba(255,255,255,0.5)
+                          }
+                          100% {
+                              color:rgba(255,255,255,1)
+                          }
+                      }
+
+    .wt_txt{
+      -moz-transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    -ms-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out; 
+        -moz-animation:blink normal 1.5s infinite ease-in-out; /* Firefox */
+    -webkit-animation:blink normal 1.5s infinite ease-in-out; /* Webkit */
+    -ms-animation:blink normal 1.5s infinite ease-in-out; /* IE */
+    animation:blink normal 1.5s infinite ease-in-out; /* Opera */
+    }
 </style>
 </head>
 <body>
@@ -69,7 +93,7 @@ $user_album = $response->getGraphEdge();
         <div id="navbar" class="collapse navbar-collapse pull-right">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#"><span class="ti-facebook"></span> Facebook</a></li>
-            <li><a href="#about"><span class="ti-twitter-alt"></span> Twitter</a></li>
+            <!-- <li><a href="#about"><span class="ti-twitter-alt"></span> Twitter</a></li> -->
             <li class="dropdown">
               <a style="padding:10px;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <img src="<?php echo $_SESSION['user']['picture']; ?>" style="
     height: 30px;
@@ -111,23 +135,24 @@ $user_album = $response->getGraphEdge();
                     <div class=" col-lg-3 col-md-3 col-sm-4 col-xs-6 animated bounceIn">
                         <div class="panel ">
 
-                        <!-- <div style="
+                       <div id="prog_<?php echo $user_album[$i]['id']; ?>" style="
     position: absolute;
     z-index: 100;
     height: 100%;
     width: 100%;
     text-align: center;
     display: block;
-    background: rgba(0, 0, 0, 0.32);
+    background: rgba(0, 0, 0, 0.5);
     padding: 28% 25px;
     color: #fff;
+    display: none;
 ">
-          Waiting
-       <div class="progress" style="height:4px;">
-          <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          <span id="pgstat_tx_<?php echo $user_album[$i]['id']; ?>"><span class="wt_txt">Zipping Files..</span></span>
+       <div class="progress" style="height:5px;">
+          <div id="pgstat_<?php echo $user_album[$i]['id']; ?>" class="progress-bar " role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
       </div>
-    </div> -->
-                             <?php 
+    </div> 
+                 <?php 
                     $fldr_stack[$user_album[$i]['id']]['name'] = $user_album[$i]['name'];
                     $fldr_stack[$user_album[$i]['id']]['id'] = $user_album[$i]['id'];
                        if($user_album[$i]['photo_count'] > 0) {
@@ -189,6 +214,10 @@ $user_album = $response->getGraphEdge();
        </div>
     </div> 
  </div> 
+<!-- <pre>
+ <?php
+   print_r($fldr_stack);
+ ?> -->
 
 
     <footer class="footer" style="position: fixed;box-shadow: 0 0 15px rgba(0,0,0,0.2);z-index:1000;">
@@ -218,20 +247,56 @@ $user_album = $response->getGraphEdge();
   function download(args)
   {
       console.log(args);
-      $.ajax({
-               type: "POST",
-               data: {info:args},
-               async:false,
-               url: "download_folder.php",
-               success: function(data){
-                 console.log(data);
-               }
-            });
+      var id = args.id;  
+      if(args.images === undefined)
+        return false;
+      $('#pgstat_'+args.id).css('width',"0%");
+      
+      $('#prog_'+args.id).fadeIn(500);
+     backup(args,0,0);
   }
-  function backup()
-  {
 
+  function backup(args,i,t)
+  {
+      if(i < args.images.length)
+      {
+        var m = {'index':i+1,'folder_id':args.id,'folder_name':args.name,'file':args.images[i].src};     
+       $.ajax({
+             type: "POST",
+             data: {info:m},
+             async:true,
+             cache :false,
+             dataType : "json",
+             url: "download_folder.php",
+             success: function(data){
+                 console.log(data);
+               t +=1;
+               var per = Math.ceil((t/args.images.length)*100);
+               $('#pgstat_'+args.id).css('width',per+"%");
+               $('#pgstat_tx_'+args.id).html(per+"%");
+               if(per == 100)
+                {
+                  $('#prog_'+args.id).fadeOut(1700);
+                }
+                i+=1
+                if(i%24 == 0)
+                {
+                  setTimeout(function(){ backup(args,i,t); }, 3000);
+                }else{
+                  backup(args,i,t);
+                }
+                                
+             }
+        });
+      }
   } 
+
+  function loader(id)
+  {
+    $('#prog_'+id).css('display','block');
+  }
+
+
   function downloadSel()
   {
      var m = new Array();
