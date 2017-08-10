@@ -13,7 +13,10 @@ if($_SESSION['logged_in'] != 'true')
 ]);
 
  try {
-  $response = $fb->get('/me/albums?fields=id,name,picture{url},photo_count,photos{images,name}', $_SESSION['fb_access_token']);
+  //$response = $fb->get('/me/albums?fields=id,name,picture{url},photo_count,photos{images,name}', $_SESSION['fb_access_token']);
+  $response = $fb->get('/me/albums?fields=id,name,picture{url},photo_count,photos.limit(1000){source}', $_SESSION['fb_access_token']);
+
+
 } catch(Facebook\Exceptions\FacebookResponseException $e) {
   echo 'Graph returned an error: ' . $e->getMessage();
   exit;
@@ -23,6 +26,36 @@ if($_SESSION['logged_in'] != 'true')
 }
 
 $user_album = $response->getGraphEdge();
+$user_album = $user_album->asArray();
+/*echo "<pre>";
+//print_r($user_album);
+echo "</pre>";
+
+echo "<pre>";
+for($i=0;$i<count($user_album);$i++)
+{
+       echo $user_album[$i]['name']."<br/>";
+       echo $user_album[$i]['id']."<br/>";
+       echo $user_album[$i]['picture']['url']."<br/>";
+       echo $user_album[$i]['photo_count']."<br/>";
+       if($user_album[$i]['photo_count'] > 0)
+       {
+         if($user_album[$i]['photo_count'] > 100 )
+         {
+          $len = floor(($user_album[$i]['photo_count']/count($user_album[$i]['photos'])));
+          $offset = 0;
+          for($j=0;$j<$len;$j++)
+          {
+            $offset+=100;
+            $off_response = $fb->get('/'.$user_album[$i]['id'].'/photos?pretty=0&fields=source&offset='.$offset.'&limit=100', $_SESSION['fb_access_token']);
+            $m = $off_response->getGraphEdge();
+             $user_album[$i]['photos'] = array_merge($user_album[$i]['photos'], $m->asArray());
+          }
+         }
+       }
+}
+die;*/
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -153,16 +186,22 @@ $user_album = $response->getGraphEdge();
       </div>
     </div> 
                  <?php 
-                    $fldr_stack[$user_album[$i]['id']]['name'] = $user_album[$i]['name'];
-                    $fldr_stack[$user_album[$i]['id']]['id'] = $user_album[$i]['id'];
-                       if($user_album[$i]['photo_count'] > 0) {
-                         for($j=0;$j<count($user_album[$i]['photos']);$j++) {
-                   $fldr_stack[$user_album[$i]['id']]['images'][$j]['src'] = $user_album[$i]['photos'][$j]['images'][0]['source'];
-                         
-                   $fldr_stack[$user_album[$i]['id']]['images'][$j]['height'] = $user_album[$i]['photos'][$j]['images'][0]['height'];
-                  $fldr_stack[$user_album[$i]['id']]['images'][$j]['name'] = "img".$j+1;
-
-                 } } ?>
+                         if($user_album[$i]['photo_count'] > 0)
+                           {
+                             if($user_album[$i]['photo_count'] > 100 )
+                             {
+                              $len = ($user_album[$i]['photo_count']/$user_album[$i]['photo_count']);
+                              $offset = 0;
+                              for($j=0;$j<$len;$j++)
+                              {
+                                 $offset+=100;
+                                 $off_response = $fb->get('/'.$user_album[$i]['id'].'/photos?pretty=0&fields=source&offset='.$offset.'&limit=100', $_SESSION['fb_access_token']);
+                                 $m = $off_response->getGraphEdge();
+                                   $user_album[$i]['photos'] = array_merge($user_album[$i]['photos'], $m->asArray());
+                              }
+                             }
+                           }
+                     ?>
                             <div class="panel-heading " style="background: url('<?php echo $user_album[$i]['picture']['url']; ?>')center no-repeat;background-size:100%;">
 
                                 <div style="position:absolute;bottom:-1px;padding:5px;width:100%;color:#fff;    background: rgba(0, 0, 0, 0.5);">
@@ -184,10 +223,11 @@ $user_album = $response->getGraphEdge();
                                         <button class="folder_usibility">
                                            <img data-toggle="tooltip" data-placement="bottom" title="Upload to google drive" style="height: 16px;margin-top: -4px;" src="img/drive_12.png">
                                        </button>
-                                        <button onclick='slideShow(<?php echo json_encode($fldr_stack[$user_album[$i]['id']]); ?>);' class="folder_usibility">
+                                        <button onclick='slideShow(<?php echo '{"name":"'.$user_album[$i]['name'].'","images":'.json_encode($user_album[$i]['photos']).'}'; ?>);' class="folder_usibility">
                                         <span class="ti-layout-slider" data-toggle="tooltip" data-placement="bottom" title="View Slide Show"></span>
                                         </button>
-                                        <button onclick='download(<?php echo json_encode($fldr_stack[$user_album[$i]['id']]); ?>);' class="folder_usibility">
+     <button onclick='download(<?php echo '{"id":"'.$user_album[$i]['id'].'","name":"'.$user_album[$i]['name'].'","images":'.json_encode($user_album[$i]['photos']).'}'; ?>);' class="folder_usibility">
+
                                         <span class="ti-download" data-toggle="tooltip" data-placement="bottom" title="Download Folder"></span>
                                         </button>
                                    </div>
@@ -216,11 +256,11 @@ $user_album = $response->getGraphEdge();
  </div> 
 <!-- <pre>
  <?php
-   print_r($fldr_stack);
+  
  ?> -->
 
 
-    <footer class="footer" style="position: fixed;box-shadow: 0 0 15px rgba(0,0,0,0.2);z-index:1000;">
+    <footer class="footer" style="box-shadow: 0 0 15px rgba(0,0,0,0.2);z-index:1000;">
       <div class="container">
       <div class="col-lg-6 col-sm-6 col-xs-6 " style="padding: 10px;">
 
@@ -246,7 +286,7 @@ $user_album = $response->getGraphEdge();
   $(document).ready(function(){$('[data-toggle="tooltip"]').tooltip(); });
   function download(args)
   {
-      console.log(args);
+      
       var id = args.id;  
       if(args.images === undefined)
         return false;
@@ -260,7 +300,7 @@ $user_album = $response->getGraphEdge();
   {
       if(i < args.images.length)
       {
-        var m = {'index':i+1,'folder_id':args.id,'folder_name':args.name,'file':args.images[i].src};     
+        var m = {'index':i+1,'folder_id':args.id,'folder_name':args.name,'file':args.images[i]['source']};     
        $.ajax({
              type: "POST",
              data: {info:m},
@@ -279,13 +319,7 @@ $user_album = $response->getGraphEdge();
                   $('#prog_'+args.id).fadeOut(1700);
                 }
                 i+=1
-                if(i%24 == 0)
-                {
-                  setTimeout(function(){ backup(args,i,t); }, 3000);
-                }else{
-                  backup(args,i,t);
-                }
-                                
+                backup(args,i,t);                 
              }
         });
       }
@@ -301,7 +335,16 @@ $user_album = $response->getGraphEdge();
   {
      var m = new Array();
      $("input[name='folder[]']:checked").each(function(){  m.push($(this).val());});
-     console.log(m);
+     $.ajax({
+             type: "POST",
+             data: {info:m},
+             async:true,
+             url: "down_all_folder.php",
+             success: function(data){
+                 console.log(data);               
+             }
+        });
+    // console.log(m);
   }
   function downloadAll()
   {

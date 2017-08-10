@@ -2,8 +2,9 @@
 
    $filenm = $_POST['info']['index'];
    $zipname = $_POST['info']['folder_name']."_".$_POST['info']['folder_id'];
+   $zipname = str_replace('.', '', $zipname);
+   $zipname = str_replace('*', '', $zipname);
    $zipname = str_replace(' ', '_', $zipname);
-   
    $zip = new ZipArchive;
 if ($zip->open("./usr_zip/".$zipname.'.zip', ZipArchive::CREATE) === TRUE) {
 	$file = $_POST['info']['file'];
