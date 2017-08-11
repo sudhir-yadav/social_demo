@@ -1,4 +1,6 @@
 <?php
+$access = "yes";
+require_once __DIR__.'/config.php';
 require_once __DIR__.'/vendor/autoload.php';
 session_start();
 if($_SESSION['logged_in'] != 'true')
@@ -6,11 +8,11 @@ if($_SESSION['logged_in'] != 'true')
     header('Location:login');exit();
 }
 
- $fb = new \Facebook\Facebook([
-      'app_id' => '1869850579937672',
-      'app_secret' => '9a89e0233508584a71bbb3341d2c8ee4',
-      'default_graph_version' => 'v2.8'
-]);
+$fb = new \Facebook\Facebook([
+              'app_id' => FB_APP_ID,
+              'app_secret' => FB_APP_SECRET,
+              'default_graph_version' => FB_APP_VERSION
+        ]);
 
  try {
   //$response = $fb->get('/me/albums?fields=id,name,picture{url},photo_count,photos{images,name}', $_SESSION['fb_access_token']);
@@ -63,7 +65,7 @@ die;*/
     <title>Dashboard</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="shortcut icon" type="image/png" href="logo-S.png"/>
+    <link rel="shortcut icon" type="image/png" href="logo.png"/>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
 	  <link rel="stylesheet" type="text/css" href="css/jumbotron.css"> 
     <link rel="stylesheet" type="text/css" href="css/themify-icons.css">
@@ -144,10 +146,12 @@ die;*/
           </ul>
         </div><!--/.nav-collapse -->
       </div>
+      
     </nav>
 
     <!-- Begin page content -->
     <div class="container" id="content">
+
         <div><h3 style="font-weight:100;"><span class="ti-folder"></span> FACEBOOK ALBUM (<?php echo count($user_album); ?>) &nbsp; 
         <!-- <button class="btn btn-success">DOWNLOAD ALL</button>
         <button class="btn btn-info">DOWNLOAD SELECTED</button> -->
@@ -241,6 +245,41 @@ die;*/
 
     </div>
 
+<!--   <div id="" style="
+    border: 1px solid #ffffff;
+    position: fixed;
+    bottom: 71px;
+    width: 191px;
+    background: #fbfbfb;
+    left: 15px;
+    /* min-height: 65px; */
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 3px;
+">
+   <div style="
+    height: 50px;
+    background: #35a5c7;
+    padding: 15px;
+    color: #fff;
+    border-radius: 3px 3px 0 0;
+">2 FILES
+</div>
+
+    <ul style="
+    display: block;
+    margin: 0px;
+    padding: 0px;
+">
+        <li style="
+    display: block;
+    height: 45px;
+    width: 100%;
+    padding: 10px;
+">dwonload 1</li>
+        
+    </ul>
+  </div> -->
+
   <div id="modal" class="slide_modal">
     <button onclick="stop()" class="modal_close_button"><span class="ti-close"></span> </button>
     <div class="modal_con_outer">
@@ -260,7 +299,7 @@ die;*/
  ?> -->
 
 
-    <footer class="footer" style="box-shadow: 0 0 15px rgba(0,0,0,0.2);z-index:1000;">
+    <footer class="footer" style="box-shadow: 0 0 15px rgba(0,0,0,0.2);z-index:1000;position: fixed;">
       <div class="container">
       <div class="col-lg-6 col-sm-6 col-xs-6 " style="padding: 10px;">
 
@@ -335,6 +374,7 @@ die;*/
   {
      var m = new Array();
      $("input[name='folder[]']:checked").each(function(){  m.push($(this).val());});
+     console.log(m);
      $.ajax({
              type: "POST",
              data: {info:m},
@@ -344,13 +384,21 @@ die;*/
                  console.log(data);               
              }
         });
-    // console.log(m);
   }
   function downloadAll()
   {
      var m = new Array();
      $("input[name='folder[]']").each(function(){ m.push($(this).val()); });
      console.log(m);
+     $.ajax({
+             type: "POST",
+             data: {info:m},
+             async:true,
+             url: "down_all_folder.php",
+             success: function(data){
+                 console.log(data);               
+             }
+        });
   }
   function backupSel()
   {

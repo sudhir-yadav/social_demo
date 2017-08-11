@@ -32,7 +32,7 @@ define('DB_USER', 'root');
 define('DB_PASS', '');
 
 /** facebook config */
-define('FB_APP_ID', '1869850579937672');
-define('FB_APP_SECRET', '9a89e0233508584a71bbb3341d2c8ee4');
-define('FB_APP_VERSION', 'v2.8');
+define('FB_APP_ID', '2036712353228138');
+define('FB_APP_SECRET', '5060189a367d277e11ac53a6ebed470d');
+define('FB_APP_VERSION', 'v2.10');
 ?>

@@ -5,7 +5,7 @@
 	<title>Facebook</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="shortcut icon" type="image/png" href="logo-S.png"/>
+    <link rel="shortcut icon" type="image/png" href="logo.png"/>
     <link rel="stylesheet" href="css/bootstrap.min.css" >
     <link rel="stylesheet" href="css/font.css" >
     <link rel="stylesheet" type="text/css" href="css/themify-icons.css">
