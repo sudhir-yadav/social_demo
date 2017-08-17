@@ -33,11 +33,11 @@ define('DB_USER', 'root');
 define('DB_PASS', '');
 
 /** facebook config */
-define('FB_APP_ID', '2036712353228138');
-define('FB_APP_SECRET', '5060189a367d277e11ac53a6ebed470d');
+define('FB_APP_ID', '');
+define('FB_APP_SECRET', '');
 define('FB_APP_VERSION', 'v2.10');
 
 
 /** google config */
-define('G_CLIENT_ID', '829552633759-s42vfsvmf430ovaumuj69masjel6fmhn.apps.googleusercontent.com');
-define('G_CLIENT_SECRET', 'ryPQHYfsXl92oXZyHgxheDxd');
+define('G_CLIENT_ID', '');
+define('G_CLIENT_SECRET', '');
