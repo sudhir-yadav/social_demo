@@ -41,6 +41,7 @@ die;*/
 	  <link rel="stylesheet" type="text/css" href="css/jumbotron.css"> 
     <link rel="stylesheet" type="text/css" href="css/themify-icons.css">
     <link rel="stylesheet" type="text/css" href="css/dashboard_style.css">
+    <link rel="stylesheet" href="css/font.css" >
     <link rel="stylesheet" type="text/css" href="css/slider.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <style>

@@ -92,8 +92,10 @@ if ($result->num_rows == 1) {
         $i++;
     }
 } else {
-    $sql1 = "INSERT INTO user_master (name, email, fb_id) VALUES ('".$user['name']."','".$user['email']."','".$user['id']."')";
+    $sql1 = "INSERT INTO user_master (name, email, fb_id) VALUES ('".$user['id']."','".$user['name']."','".$user['email']."','".$user['id']."')";
+    $_SESSION['user']['id'] = $user['id'];
     $conn->query($sql1);
+    // $_SESSION['user']['id'] = mysql_insert_id();
 }
 
 $_SESSION['fb_access_token'] = (string) $accessToken;
