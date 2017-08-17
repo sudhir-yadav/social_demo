@@ -22,5 +22,5 @@
       function pause(){clearTimeout(timer);};
       function next(){pauseB();i_slid1v++;if(i_slid1v == (args_slid1v.images.length-1)){i_slid1v = 0;};$('#modal_content img').attr("src",args_slid1v.images[i_slid1v]['source']);};
       function prev(){pauseB();i_slid1v--;if(i_slid1v < 0){i_slid1v = (args_slid1v.images.length-1);};$('#modal_content img').attr("src",args_slid1v.images[i_slid1v]['source']);};
-      function stop(){clearTimeout(timer);i_slid1v=0;$('#modal').fadeOut();$('body').removeClass('modal_no_margin');/*$('#content').removeClass('modal_no_margin');*/$("#playPause span").attr('class','ti-control-pause');};
-   
+      function stop(){clearTimeout(timer);i_slid1v=0;closeModal();/*$('#content').removeClass('modal_no_margin');*/$("#playPause span").attr('class','ti-control-pause');};
+      function closeModal(){$('.slide_modal').fadeOut();$('body').removeClass('modal_no_margin');}

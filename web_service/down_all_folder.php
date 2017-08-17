@@ -1,7 +1,10 @@
 <?php
 $access = "yes";
-require_once __DIR__.'/config.php';
-require_once __DIR__.'/vendor/autoload.php';
+require_once '../config.php';
+require_once '../vendor/autoload.php';
+
+$conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+
 session_start();
 ini_set('MAX_EXECUTION_TIME', -1);
 $zip = new ZipArchive;
@@ -18,7 +21,7 @@ if($_SESSION['logged_in'] != 'true'){header('Location:login');exit();}
   $dt_time = date('d-m-Y__H_i_s_a');
   $zipname = "bkp_".$zipname."_".$dt_time;
 
-  if ($zip->open("./usr_zip/".$zipname.'.zip', ZipArchive::CREATE) === TRUE)
+  if ($zip->open("../usr_zip/".$zipname.'.zip', ZipArchive::CREATE) === TRUE)
   {
         for($i=0;$i<count($folder);$i++)
         {
@@ -49,8 +52,25 @@ if($_SESSION['logged_in'] != 'true'){header('Location:login');exit();}
              }
         }
        $zip->close();
-       echo '{"status":"success"}';
-       exit();
+       //$arr = array("id"=>$zipname,"title"=>$zipname,"address"=>"usr_zip/".$zipname.".zip");
+       // array_push($_SESSION['archives'],$arr);
+
+       
+
+       $date = date("Y-m-d H:i:s");
+       $sql1 = "INSERT INTO archive_master (title,uid,url,udate,type) VALUES ('".$zipname."','".$_SESSION['user']['id']."','usr_zip/".$zipname.".zip','".$date."',2)";
+                  
+         if($conn->query($sql1) === TRUE)
+         {
+             if(isset($_SESSION['archives_count']))
+             { $_SESSION['archives_count'] += 1;}
+             else
+             { $_SESSION['archives_count'] = 1; }
+
+             header('Content-Type: application/json');
+             echo '{"status":"success","archive_count":"'.$_SESSION['archives_count'].'"}';
+             exit();
+         }
    } 
    else {
     echo '{"status":"failed"}';

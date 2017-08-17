@@ -1,422 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="FILTER_RESOLVED_ITEMS" value="false" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4c03cbef-6c24-4696-adab-d106785c40fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/open-iconic-bootstrap.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/open-iconic-bootstrap.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/open-iconic-bootstrap.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/open-iconic-foundation.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/open-iconic-foundation.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/open-iconic-foundation.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/open-iconic.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/open-iconic.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/open-iconic.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/d.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfontba72.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfontba72.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfontba72.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfontba72.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfontd41d.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/drive_401.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/CLI.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/DocGenerators/Generator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/DocGenerators/HTML.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/DocGenerators/Text.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Exception.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/File.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Fixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Report.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Reporting.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Reports/Cbf.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Reports/Checkstyle.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Reports/Csv.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Reports/Diff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Reports/Emacs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Reports/Full.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Reports/Gitblame.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Reports/Hgblame.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Reports/Info.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Reports/Json.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Reports/Junit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Reports/Notifysend.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Reports/Source.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Reports/Summary.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Reports/Svnblame.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Reports/VersionControl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Reports/Xml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Sniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/AbstractPatternSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/AbstractScopeSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/AbstractVariableSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Classes/DuplicateClassNameStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/CodeAnalysis/EmptyStatementStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/CodeAnalysis/ForLoopShouldBeWhileLoopStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/CodeAnalysis/ForLoopWithTestFunctionCallStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/CodeAnalysis/JumbledIncrementerStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/CodeAnalysis/UnconditionalIfStatementStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/CodeAnalysis/UnnecessaryFinalModifierStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/CodeAnalysis/UnusedFunctionParameterStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/CodeAnalysis/UselessOverridingMethodStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Commenting/FixmeStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Commenting/TodoStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/ControlStructures/InlineControlStructureStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Debug/CSSLintStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Debug/ClosureLinterStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Debug/JSHintStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Files/ByteOrderMarkStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Files/EndFileNewlineStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Files/EndFileNoNewlineStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Files/InlineHTMLStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Files/LineEndingsStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Files/LineLengthStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Files/LowercasedFilenameStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Files/OneClassPerFileStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Files/OneInterfacePerFileStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Formatting/DisallowMultipleStatementsStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Formatting/MultipleStatementAlignmentStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Formatting/NoSpaceAfterCastStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Formatting/SpaceAfterCastStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Functions/CallTimePassByReferenceStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Functions/FunctionCallArgumentSpacingStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Functions/OpeningFunctionBraceBsdAllmanStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Functions/OpeningFunctionBraceKernighanRitchieStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Metrics/CyclomaticComplexityStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Metrics/NestingLevelStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/NamingConventions/CamelCapsFunctionNameStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/NamingConventions/ConstructorNameStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/NamingConventions/UpperCaseConstantNameStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/PHP/CharacterBeforePHPOpeningTagStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/PHP/ClosingPHPTagStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/PHP/DeprecatedFunctionsStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/PHP/DisallowShortOpenTagStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/PHP/ForbiddenFunctionsStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/PHP/LowerCaseConstantStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/PHP/LowerCaseKeywordStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/PHP/NoSilencedErrorsStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/PHP/SAPIUsageStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/PHP/UpperCaseConstantStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/Strings/UnnecessaryStringConcatStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/VersionControl/SubversionPropertiesStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/WhiteSpace/DisallowSpaceIndentStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/WhiteSpace/DisallowTabIndentStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Docs/WhiteSpace/ScopeIndentStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Classes/DuplicateClassNameSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/CodeAnalysis/EmptyStatementSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/CodeAnalysis/ForLoopShouldBeWhileLoopSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/CodeAnalysis/ForLoopWithTestFunctionCallSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/CodeAnalysis/JumbledIncrementerSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/CodeAnalysis/UnconditionalIfStatementSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/CodeAnalysis/UnnecessaryFinalModifierSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/CodeAnalysis/UnusedFunctionParameterSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/CodeAnalysis/UselessOverridingMethodSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Commenting/DocCommentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Commenting/FixmeSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Commenting/TodoSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/ControlStructures/InlineControlStructureSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Debug/CSSLintSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Debug/ClosureLinterSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Debug/JSHintSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Files/ByteOrderMarkSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Files/EndFileNewlineSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Files/EndFileNoNewlineSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Files/InlineHTMLSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Files/LineEndingsSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Files/LineLengthSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Files/LowercasedFilenameSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Files/OneClassPerFileSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Files/OneInterfacePerFileSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Files/OneTraitPerFileSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Formatting/DisallowMultipleStatementsSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Formatting/MultipleStatementAlignmentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Formatting/NoSpaceAfterCastSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Formatting/SpaceAfterCastSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Functions/CallTimePassByReferenceSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Functions/FunctionCallArgumentSpacingSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Functions/OpeningFunctionBraceBsdAllmanSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Functions/OpeningFunctionBraceKernighanRitchieSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Metrics/CyclomaticComplexitySniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Metrics/NestingLevelSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/NamingConventions/CamelCapsFunctionNameSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/NamingConventions/ConstructorNameSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/NamingConventions/UpperCaseConstantNameSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/PHP/CharacterBeforePHPOpeningTagSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/PHP/ClosingPHPTagSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/PHP/DeprecatedFunctionsSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/PHP/DisallowShortOpenTagSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/PHP/ForbiddenFunctionsSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/PHP/LowerCaseConstantSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/PHP/LowerCaseKeywordSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/PHP/NoSilencedErrorsSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/PHP/SAPIUsageSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/PHP/SyntaxSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/PHP/UpperCaseConstantSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Strings/UnnecessaryStringConcatSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/VersionControl/SubversionPropertiesSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/WhiteSpace/DisallowSpaceIndentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/WhiteSpace/DisallowTabIndentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/WhiteSpace/ScopeIndentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/ruleset.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/IncorrectPatternException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/MySource/Sniffs/CSS/BrowserSpecificStylesSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/MySource/Sniffs/Channels/DisallowSelfActionsSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/MySource/Sniffs/Channels/IncludeOwnSystemSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/MySource/Sniffs/Channels/IncludeSystemSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/MySource/Sniffs/Channels/UnusedSystemSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/MySource/Sniffs/Commenting/FunctionCommentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/MySource/Sniffs/Debug/DebugCodeSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/MySource/Sniffs/Debug/FirebugConsoleSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/MySource/Sniffs/Objects/AssignThisSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/MySource/Sniffs/Objects/CreateWidgetTypeCallbackSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/MySource/Sniffs/Objects/DisallowNewWidgetSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/MySource/Sniffs/PHP/AjaxNullComparisonSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/MySource/Sniffs/PHP/EvalObjectFactorySniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/MySource/Sniffs/PHP/GetRequestDataSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/MySource/Sniffs/PHP/ReturnFunctionValueSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/MySource/Sniffs/Strings/JoinStringsSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/MySource/ruleset.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/Classes/ClassDeclarationStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/Commenting/ClassCommentStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/Commenting/FileCommentStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/Commenting/FunctionCommentStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/Commenting/InlineCommentStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/ControlStructures/ControlSignatureStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/ControlStructures/MultiLineConditionStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/Files/IncludingFileStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/Files/LineLengthStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/Formatting/MultiLineAssignmentStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/Functions/FunctionCallSignatureStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/Functions/FunctionDeclarationStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/Functions/ValidDefaultValueStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/NamingConventions/ValidClassNameStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/NamingConventions/ValidFunctionNameStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/NamingConventions/ValidVariableNameStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/WhiteSpace/ObjectOperatorIndentStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/WhiteSpace/ScopeClosingBraceStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/WhiteSpace/ScopeIndentStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Sniffs/Classes/ClassDeclarationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Sniffs/Commenting/ClassCommentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Sniffs/Commenting/FileCommentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Sniffs/Commenting/FunctionCommentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Sniffs/Commenting/InlineCommentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Sniffs/ControlStructures/ControlSignatureSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Sniffs/ControlStructures/MultiLineConditionSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Sniffs/Files/IncludingFileSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Sniffs/Formatting/MultiLineAssignmentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Sniffs/Functions/FunctionCallSignatureSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Sniffs/Functions/FunctionDeclarationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Sniffs/Functions/ValidDefaultValueSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Sniffs/NamingConventions/ValidClassNameSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Sniffs/NamingConventions/ValidFunctionNameSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Sniffs/NamingConventions/ValidVariableNameSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Sniffs/WhiteSpace/ObjectOperatorIndentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Sniffs/WhiteSpace/ScopeClosingBraceSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Sniffs/WhiteSpace/ScopeIndentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/ruleset.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PHPCS/ruleset.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR1/Docs/Classes/ClassDeclarationStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR1/Docs/Files/SideEffectsStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR1/Sniffs/Classes/ClassDeclarationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR1/Sniffs/Files/SideEffectsSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR1/Sniffs/Methods/CamelCapsMethodNameSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR1/ruleset.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Docs/Classes/ClassDeclarationStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Docs/Classes/PropertyDeclarationStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Docs/ControlStructures/ControlStructureSpacingStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Docs/ControlStructures/ElseIfDeclarationStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Docs/ControlStructures/SwitchDeclarationStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Docs/Files/EndFileNewlineStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Docs/Methods/MethodDeclarationStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Docs/Namespaces/NamespaceDeclarationStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Docs/Namespaces/UseDeclarationStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Sniffs/Classes/ClassDeclarationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Sniffs/Classes/PropertyDeclarationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Sniffs/ControlStructures/ControlStructureSpacingSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Sniffs/ControlStructures/ElseIfDeclarationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Sniffs/ControlStructures/SwitchDeclarationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Sniffs/Files/EndFileNewlineSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Sniffs/Methods/FunctionCallSignatureSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Sniffs/Methods/MethodDeclarationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Sniffs/Namespaces/NamespaceDeclarationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Sniffs/Namespaces/UseDeclarationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/ruleset.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Docs/Arrays/ArrayBracketSpacingStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Docs/Arrays/ArrayDeclarationStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Docs/Classes/LowercaseClassKeywordsStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Docs/Classes/SelfMemberReferenceStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Docs/Commenting/DocCommentAlignmentStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Docs/Commenting/FunctionCommentThrowTagStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Docs/ControlStructures/ForEachLoopDeclarationStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Docs/ControlStructures/ForLoopDeclarationStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Docs/ControlStructures/LowercaseDeclarationStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Docs/Functions/FunctionDuplicateArgumentStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Docs/Functions/LowercaseFunctionKeywordsStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Docs/Scope/StaticThisUsageStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Docs/Strings/EchoedStringsStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Docs/WhiteSpace/CastSpacingStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Docs/WhiteSpace/FunctionOpeningBraceStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Docs/WhiteSpace/LanguageConstructSpacingStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Docs/WhiteSpace/ObjectOperatorSpacingStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Docs/WhiteSpace/ScopeKeywordSpacingStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Docs/WhiteSpace/SemicolonSpacingStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Arrays/ArrayBracketSpacingSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Arrays/ArrayDeclarationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/ClassDefinitionClosingBraceSpaceSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/ClassDefinitionNameSpacingSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/ClassDefinitionOpeningBraceSpaceSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/ColonSpacingSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/ColourDefinitionSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/DisallowMultipleStyleDefinitionsSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/DuplicateClassDefinitionSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/DuplicateStyleDefinitionSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/EmptyClassDefinitionSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/EmptyStyleDefinitionSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/ForbiddenStylesSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/IndentationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/LowercaseStyleDefinitionSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/MissingColonSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/NamedColoursSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/OpacitySniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/SemicolonSpacingSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/ShorthandSizeSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Classes/ClassDeclarationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Classes/ClassFileNameSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Classes/DuplicatePropertySniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Classes/LowercaseClassKeywordsSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Classes/SelfMemberReferenceSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Classes/ValidClassNameSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CodeAnalysis/EmptyStatementSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Commenting/BlockCommentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Commenting/ClassCommentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Commenting/ClosingDeclarationCommentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Commenting/DocCommentAlignmentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Commenting/EmptyCatchCommentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Commenting/FileCommentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Commenting/FunctionCommentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Commenting/FunctionCommentThrowTagSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Commenting/InlineCommentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Commenting/LongConditionClosingCommentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Commenting/PostStatementCommentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Commenting/VariableCommentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/ControlStructures/ControlSignatureSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/ControlStructures/ElseIfDeclarationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/ControlStructures/ForEachLoopDeclarationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/ControlStructures/ForLoopDeclarationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/ControlStructures/InlineIfDeclarationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/ControlStructures/LowercaseDeclarationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/ControlStructures/SwitchDeclarationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Debug/JSLintSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Debug/JavaScriptLintSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Files/FileExtensionSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Formatting/OperatorBracketSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Functions/FunctionDeclarationArgumentSpacingSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Functions/FunctionDeclarationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Functions/FunctionDuplicateArgumentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Functions/GlobalFunctionSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Functions/LowercaseFunctionKeywordsSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Functions/MultiLineFunctionDeclarationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/NamingConventions/ConstantCaseSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/NamingConventions/ValidFunctionNameSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/NamingConventions/ValidVariableNameSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Objects/DisallowObjectStringIndexSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Objects/ObjectInstantiationSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Objects/ObjectMemberCommaSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Operators/ComparisonOperatorUsageSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Operators/IncrementDecrementUsageSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Operators/ValidLogicalOperatorsSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/PHP/CommentedOutCodeSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/PHP/DisallowBooleanStatementSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/PHP/DisallowComparisonAssignmentSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/PHP/DisallowInlineIfSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/PHP/DisallowMultipleAssignmentsSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/PHP/DisallowObEndFlushSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/PHP/DisallowSizeFunctionsInLoopsSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/PHP/DiscouragedFunctionsSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/PHP/EmbeddedPhpSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/PHP/EvalSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/PHP/ForbiddenFunctionsSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/PHP/GlobalKeywordSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/PHP/HeredocSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/PHP/InnerFunctionsSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/PHP/LowercasePHPFunctionsSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/PHP/NonExecutableCodeSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Scope/MemberVarScopeSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Scope/MethodScopeSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Scope/StaticThisUsageSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Strings/ConcatenationSpacingSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Strings/DoubleQuoteUsageSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Strings/EchoedStringsSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/WhiteSpace/CastSpacingSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/WhiteSpace/ControlStructureSpacingSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/WhiteSpace/FunctionClosingBraceSpaceSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/WhiteSpace/FunctionOpeningBraceSpaceSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/WhiteSpace/FunctionSpacingSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/WhiteSpace/LanguageConstructSpacingSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/WhiteSpace/LogicalOperatorSpacingSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/WhiteSpace/MemberVarSpacingSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/WhiteSpace/ObjectOperatorSpacingSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/WhiteSpace/OperatorSpacingSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/WhiteSpace/PropertyLabelSpacingSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/WhiteSpace/ScopeClosingBraceSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/WhiteSpace/ScopeKeywordSpacingSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/WhiteSpace/SemicolonSpacingSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/WhiteSpace/SuperfluousWhitespaceSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/ruleset.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Zend/Docs/Debug/CodeAnalyzerStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Zend/Docs/Files/ClosingTagStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Zend/Docs/NamingConventions/ValidVariableNameStandard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Zend/Sniffs/Debug/CodeAnalyzerSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Zend/Sniffs/Files/ClosingTagSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Zend/Sniffs/NamingConventions/ValidVariableNameSniff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Zend/ruleset.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Tokenizers/CSS.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Tokenizers/Comment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Tokenizers/JS.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Tokenizers/PHP.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CodeSniffer/Tokens.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/phpunit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/scripts/phpcbf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/scripts/phpcbf.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/scripts/phpcs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/scripts/phpcs-svn-pre-commit" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/scripts/phpcs.bat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Sudhir.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/authenticate.php" afterPath="$PROJECT_DIR$/authenticate.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/slider.css" afterPath="$PROJECT_DIR$/css/slider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/dashboard_style.css" afterPath="$PROJECT_DIR$/css/dashboard_style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard.php" afterPath="$PROJECT_DIR$/dashboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/download_folder.php" afterPath="$PROJECT_DIR$/download_folder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google_drive_upload.php" afterPath="$PROJECT_DIR$/google_drive_upload.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/slider.js" afterPath="$PROJECT_DIR$/js/slider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bin/phpcbf" afterPath="$PROJECT_DIR$/vendor/bin/phpcbf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bin/phpcbf.bat" afterPath="$PROJECT_DIR$/vendor/bin/phpcbf.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bin/phpcs" afterPath="$PROJECT_DIR$/vendor/bin/phpcs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bin/phpcs.bat" afterPath="$PROJECT_DIR$/vendor/bin/phpcs.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/.gitattributes" afterPath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/.gitattributes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/.gitignore" afterPath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/README.md" afterPath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/composer.json" afterPath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/scripts/build-phar.php" afterPath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/scripts/build-phar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/src/Standards/PSR2/Tests/Namespaces/UseDeclarationUnitTest.6.inc" afterPath="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/src/Standards/PSR2/Tests/Namespaces/UseDeclarationUnitTest.6.inc" />
     </list>
     <ignored path="social_demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -437,12 +37,22 @@
     <favorites_list name="social_demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3628049">
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logout.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/logout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.112026356">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -458,6 +68,8 @@
       <list>
         <option value="$PROJECT_DIR$/login_demo.php" />
         <option value="$PROJECT_DIR$/trial.php" />
+        <option value="$PROJECT_DIR$/middleware.php" />
+        <option value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/src/Standards/PSR2/Tests/Namespaces/UseDeclarationUnitTest.6.inc" />
       </list>
     </option>
   </component>
@@ -501,6 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -521,7 +134,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -530,6 +142,64 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="25" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="32" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="32" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="228" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="34" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="34" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="34" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="215" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+  </component>
+  <component name="RunManager" selected="PHP Script.down_all_folder.php">
+    <configuration default="false" name="down_all_folder.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/down_all_folder.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.down_all_folder.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.down_all_folder.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -550,19 +220,19 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07310705" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13707572" sideWeight="0.7825" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.418125" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13707572" sideWeight="0.2175" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -585,26 +255,81 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dashboard.php">
+    <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-45.321648">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trial.php">
+    <entry file="file://$PROJECT_DIR$/down_all_folder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8445122">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3628049">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-45.321648">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/token.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/squizlabs/php_codesniffer/src/Standards/PSR2/Tests/Namespaces/UseDeclarationUnitTest.6.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.036093418">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/down_all_folder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5969101">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85674155">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.112026356">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
           <folding />
         </state>
       </provider>

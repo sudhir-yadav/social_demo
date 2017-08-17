@@ -1,1 +1,1 @@
-<?php use My\Full\Classname as Another ?>
+<?php use My\Full\Classname as Another?>

@@ -20,7 +20,7 @@ if (empty($access)) {
 date_default_timezone_set('Asia/Calcutta');
 
 /** system config */
-define('DIR', 'http://localhost/social_demo/');
+define('DIR', 'http://fbdemo.rto-utility.in/');
 define('DOCROOT', dirname(__FILE__));
 define('APP_NAME', 'social_demo');
 define('SESSION_PREFIX', 'scl_dmo_');
@@ -28,9 +28,9 @@ define('SESSION_PREFIX', 'scl_dmo_');
 /** database config */
 define('DB_TYPE', 'mysql');
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'social_demo');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_NAME', 'sudhirin_social_demo');
+define('DB_USER', 'sudhirin_scld');
+define('DB_PASS', 'sudhir123#');
 
 /** facebook config */
 define('FB_APP_ID', '2036712353228138');
